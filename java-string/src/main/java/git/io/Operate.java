@@ -20,7 +20,6 @@ enum Operate {
         this.code = code;
         this.resultSet = resultSet;
     }
-    23+17-2
 
     public static Boolean isOperand(String code) {
         Optional<Operate> first = EnumSet.allOf(Operate.class).stream()
