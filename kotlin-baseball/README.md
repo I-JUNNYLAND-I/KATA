@@ -1,6 +1,6 @@
 # 숫자야구게임 구현
 
-![Java_17](https://img.shields.io/badge/java-17-red?logo=java)
+![KOTLIN](https://img.shields.io/badge/java-17-red?logo=KOTLIN)
 
 ## 기능 요구 사항
 
@@ -32,7 +32,7 @@
 1
 숫자를 입력해 주세요 : 123
 1볼 1스트라이크
-
+…
 ```
 
 ## 프로그래밍 요구사항
