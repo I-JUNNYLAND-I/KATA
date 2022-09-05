@@ -3,8 +3,10 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/java-baseball" />
+    <file type="web" url="file://$PROJECT_DIR$/java-bowling" />
     <file type="web" url="file://$PROJECT_DIR$/java-lotto" />
     <file type="web" url="file://$PROJECT_DIR$/java-string" />
+    <file type="web" url="file://$PROJECT_DIR$/java-urlValidator" />
     <file type="web" url="file://$PROJECT_DIR$/kotlin-baseball" />
   </component>
   <component name="ProjectRootManager">
