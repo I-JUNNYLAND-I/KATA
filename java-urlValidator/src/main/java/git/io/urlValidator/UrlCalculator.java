@@ -1,5 +1,6 @@
 package git.io.urlValidator;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -18,9 +19,12 @@ public class UrlCalculator {
         return new UrlCalculator(longSet, urlSet);
     }
 
-    public Long extract() {
-        return dataset.stream()
-                .map()
-                .reduce((value, idx) -> );
+    public Long extract() throws IllegalAccessException {
+        for (int i = 0; i < dataset.size() -1; i++) {
+            Long result = WebClient.of(urlSet.get(i)).validate(dataset.get(i), dataset.get(i + 1));
+            dataset.remove((int)i);
+            dataset.set(i,result);
+        }
+        return null;
     }
 }

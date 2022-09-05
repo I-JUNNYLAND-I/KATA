@@ -14,9 +14,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class UrlCalculatorTest {
     @ParameterizedTest
     @MethodSource(value = "url")
-    void test1(List<Long> longSet, List<String> urlSet, Long result) {
+    void test1(List<Long> longSet, List<String> urlSet, Long result) throws IllegalAccessException {
         Long set = UrlCalculator.setUp(longSet, urlSet).extract();
-
         assertThat(set).isEqualTo(result);
     }
 
