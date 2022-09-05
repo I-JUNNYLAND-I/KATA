@@ -14,7 +14,7 @@ class BaseBallLotteryTest {
 
     @Test
     void 숫자_추출하김() {
-        List<Integer> baseBallLottery = RANDOM.extract();
+        List<Ball> baseBallLottery = RANDOM.extract();
         Assertions.assertThat(baseBallLottery).hasSize(3);
     }
 }

@@ -12,14 +12,12 @@ class BallsTests {
             Balls(listOf(Ball(1), Ball(2), Ball(3)))
         }
     }
-
     @Test
     fun `3개넣김`() {
         assertThrows<IllegalArgumentException> {
             Balls(listOf())
         }.apply { assertThat(message).isEqualTo("볼은 3개여야 합니다") }
     }
-
     @Test
     fun `중복넣김`() {
         assertThrows<IllegalArgumentException> {

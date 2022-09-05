@@ -4,12 +4,13 @@ import java.util.List;
 import java.util.random.RandomGenerator;
 
 public interface BaseBallLottery {
-    List<Integer> extract();
+    List<Ball> extract();
 
     BaseBallLottery RANDOM = () -> RandomGenerator.getDefault()
-            .ints(1, 10)
+            .longs(1, 10)
             .distinct()
             .limit(3)
-            .boxed().toList();
+            .mapToObj(Ball::from)
+            .toList();
 }
 
