@@ -14,8 +14,6 @@ class CalculateTest {
 
     )
     void 값을_계산한다(){
-
-
     }
 
 
