@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'github.io'
+group 'git.io'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -19,5 +19,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
