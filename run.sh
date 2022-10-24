@@ -12,6 +12,6 @@ if [ "$GIT_AUTHOR_EMAIL" = "$WRONG_EMAIL" ]
 then
     export GIT_AUTHOR_NAME="$NEW_NAME"
     export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
-fi
+fi '
 
 
