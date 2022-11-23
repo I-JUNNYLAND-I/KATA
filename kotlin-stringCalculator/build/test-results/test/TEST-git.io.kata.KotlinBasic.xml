@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="git.io.kata.KotlinBasic" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-12T06:32:14" hostname="DESKTOP-RAUCURQ" time="0.011">
+  <properties/>
+  <testcase name="내장 함수()" classname="git.io.kata.KotlinBasic" time="0.011"/>
+  <system-out><![CDATA[이름은 junny 입니다.
+이름은 junny 입니다.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
