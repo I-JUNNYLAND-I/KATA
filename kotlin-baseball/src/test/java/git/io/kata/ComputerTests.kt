@@ -44,4 +44,9 @@ class ComputerTests {
         assertThat(result.second).isEqualTo(0)
         assertThat(result.third).isEqualTo(3)
     }
+
+    @Test
+    fun afsdf(){
+
+    }
 }
