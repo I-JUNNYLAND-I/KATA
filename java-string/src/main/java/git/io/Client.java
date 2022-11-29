@@ -3,6 +3,10 @@ package git.io;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.SocketChannel;
+import java.util.List;
+import java.util.random.RandomGenerator;
+
+import static jdk.internal.joptsimple.internal.Strings.join;
 
 public class Client {
     private final SocketChannel socketChannel;
@@ -19,8 +23,8 @@ public class Client {
         }
         System.out.println("[ CONNECT COMPLETE ::: "+ socketChannel.socket().getRemoteSocketAddress() + " ]");
     }
-
-    public void receive(){
-
+    Integer data = 0;
+    public synchronized void receive(){
+        data++;
     }
 }

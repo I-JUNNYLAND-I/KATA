@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/fiber" />
     <file type="web" url="file://$PROJECT_DIR$/java-baseball" />
     <file type="web" url="file://$PROJECT_DIR$/java-bowling" />
     <file type="web" url="file://$PROJECT_DIR$/java-lotto" />
     <file type="web" url="file://$PROJECT_DIR$/java-string" />
-    <file type="web" url="file://$PROJECT_DIR$/java-thread" />
     <file type="web" url="file://$PROJECT_DIR$/java-urlValidator" />
     <file type="web" url="file://$PROJECT_DIR$/kotlin-baseball" />
     <file type="web" url="file://$PROJECT_DIR$/kotlin-stringCalculator" />
+    <file type="web" url="file://$PROJECT_DIR$/ladder" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
