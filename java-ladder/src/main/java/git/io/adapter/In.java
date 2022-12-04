@@ -16,11 +16,11 @@ public record In() {
     }
 
 
-    private Results readResult(){
+    public Results readResult(){
         return new Results(read());
     }
 
-    private LadderHeight readHeight(){
+    public LadderHeight readHeight(){
         return new LadderHeight(read());
     }
     private static String read() throws IOException {
