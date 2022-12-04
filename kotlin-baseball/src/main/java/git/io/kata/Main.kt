@@ -1,7 +1,5 @@
 package git.io.kata
 
-import java.util.stream.Collectors
-
 
 //fun main(args: Array<String>) = with(System.`in`.bufferedReader()) {
 //    val st1 = readLine()!!.toInt()
@@ -14,14 +12,17 @@ import java.util.stream.Collectors
 //}
 
 fun main() {
-   val s = "adab"
-    val t = "Adsaf"
+    countGoodSubstrings("xyzzaz")
+}
 
-    val n = t.length
-    val c = t.toCharArray()
-    for (i in 0 until n) {
-        if (c[i] in 'a'..'z') {
-            c[i] = (c[i] - 'a' + 'A').toChar()
+fun countGoodSubstrings(s: String): Int {
+    var count = 0
+    for (i in 0 until s.length -2) {
+        val substring = s.substring(i, i + 3).map { it.toString() }
+        val distinct = substring.distinct()
+        if (distinct.size == 3) {
+            count++
         }
     }
+    return count
 }
